@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadXmlFunctionPack", "ReadXmlFunctionPack\ReadXmlFunctionPack.csproj", "{51F5C902-0FDE-4BA9-AA57-79D1989A569A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51F5C902-0FDE-4BA9-AA57-79D1989A569A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51F5C902-0FDE-4BA9-AA57-79D1989A569A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51F5C902-0FDE-4BA9-AA57-79D1989A569A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51F5C902-0FDE-4BA9-AA57-79D1989A569A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD426913-265C-4C8A-BAF9-1004824E8608}
+	EndGlobalSection
+EndGlobal

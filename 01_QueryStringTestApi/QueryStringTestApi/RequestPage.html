@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="Scripts/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+    <button onclick="TestRequestString()">TestRequestString!!</button>
+<textarea></textarea>
+    <script>
+        let TestRequestString = function() {
+            let testMaxStrLen = 2000;
+            let partKeyStr = "length";
+            let paramValue = ""
+            for (let i = 0; i < testMaxStrLen; ++i) {
+                paramValue += "a";
+            }
+            let paramKey = partKeyStr + String(testMaxStrLen);
+            let queryKeyValue = {};
+            queryKeyValue[paramKey] = paramValue;
+            IsApiRequestSuccess(queryKeyValue);
+        };
+
+        let IsApiRequestSuccess = function (queryKeyAndValue) {
+            result = false;
+            $.ajax({
+                url: './Response.aspx',
+                type: 'GET',
+                data: queryKeyAndValue
+            }).then(
+                function (response) {
+                    console.log(response);
+                    result = true;
+                },
+                function (response) {
+                    console.log("fault\n");
+                });
+            return result;
+        };
+    </script>
+</body>
+</html>
