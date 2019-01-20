@@ -1,0 +1,12 @@
+{
+  "ceratername": "maruhi",
+  "createdate": "2019-01-17",
+  "data": {
+    "Fizz": "Buzz",
+    "Buzz": "Fizz"
+  },
+  "dataArray": [
+    { "Fizz": "Buzz" },
+    { "Buzz": "Fizz" }
+  ]
+}
